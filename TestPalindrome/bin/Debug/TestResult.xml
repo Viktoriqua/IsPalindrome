@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\MasterLomaster\Documents\Visual Studio 2010\Projects\IsPalindrome\TestPalindrome\bin\Debug\TestPalindrome.dll" total="11" errors="9" failures="2" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-12-19" time="15:07:07">
+  <environment nunit-version="2.6.1.12217" clr-version="2.0.50727.5466" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.1\bin" machine-name="MASTER_LOMASTER" user="MasterLomaster" user-domain="Master_Lomaster" />
+  <culture-info current-culture="ru-RU" current-uiculture="ru-RU" />
+  <test-suite type="Assembly" name="C:\Users\MasterLomaster\Documents\Visual Studio 2010\Projects\IsPalindrome\TestPalindrome\bin\Debug\TestPalindrome.dll" executed="True" result="Failure" success="False" time="0.109" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="TestPalindrome" executed="True" result="Failure" success="False" time="0.108" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="PalindromeTest" executed="True" result="Failure" success="False" time="0.106" asserts="0">
+            <results>
+              <test-case name="TestPalindrome.PalindromeTest.CheckForCorrectStringWithInCorrectChars" executed="True" result="Error" success="False" time="0.008" asserts="0">
+                <failure>
+                  <message><![CDATA[System.BadImageFormatException : Невозможно загрузить файл или сборку "IsPolendrome, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" или один из зависимых от них компонентов. Была сделана попытка загрузить программу, имеющую неверный формат.]]></message>
+                  <stack-trace><![CDATA[в TestPalindrome.PalindromeTest.CheckForCorrectStringWithInCorrectChars()
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="TestPalindrome.PalindromeTest.CheckForCorrectStringWithRussianChars" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                <failure>
+                  <message><![CDATA[System.BadImageFormatException : Невозможно загрузить файл или сборку "IsPolendrome, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" или один из зависимых от них компонентов. Была сделана попытка загрузить программу, имеющую неверный формат.]]></message>
+                  <stack-trace><![CDATA[в TestPalindrome.PalindromeTest.CheckForCorrectStringWithRussianChars()
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="TestPalindrome.PalindromeTest.CheckForEasyCorrectString" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.BadImageFormatException : Невозможно загрузить файл или сборку "IsPolendrome, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" или один из зависимых от них компонентов. Была сделана попытка загрузить программу, имеющую неверный формат.]]></message>
+                  <stack-trace><![CDATA[в TestPalindrome.PalindromeTest.CheckForEasyCorrectString()
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="TestPalindrome.PalindromeTest.CheckForEasyNotCorrectString" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.BadImageFormatException : Невозможно загрузить файл или сборку "IsPolendrome, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" или один из зависимых от них компонентов. Была сделана попытка загрузить программу, имеющую неверный формат.]]></message>
+                  <stack-trace><![CDATA[в TestPalindrome.PalindromeTest.CheckForEasyNotCorrectString()
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="TestPalindrome.PalindromeTest.CheckForEmptyString" executed="True" result="Failure" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[An unexpected exception type was thrown
+Expected: System.ArgumentException
+ but was: System.BadImageFormatException : Невозможно загрузить файл или сборку "IsPolendrome, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" или один из зависимых от них компонентов. Была сделана попытка загрузить программу, имеющую неверный формат.]]></message>
+                  <stack-trace><![CDATA[в TestPalindrome.PalindromeTest.CheckForEmptyString()
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="TestPalindrome.PalindromeTest.CheckForInCorrectStringWithInCorrectChars" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.BadImageFormatException : Невозможно загрузить файл или сборку "IsPolendrome, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" или один из зависимых от них компонентов. Была сделана попытка загрузить программу, имеющую неверный формат.]]></message>
+                  <stack-trace><![CDATA[в TestPalindrome.PalindromeTest.CheckForInCorrectStringWithInCorrectChars()
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="TestPalindrome.PalindromeTest.CheckForInCorrectStringWithRussianChars" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.BadImageFormatException : Невозможно загрузить файл или сборку "IsPolendrome, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" или один из зависимых от них компонентов. Была сделана попытка загрузить программу, имеющую неверный формат.]]></message>
+                  <stack-trace><![CDATA[в TestPalindrome.PalindromeTest.CheckForInCorrectStringWithRussianChars()
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="TestPalindrome.PalindromeTest.CheckForNullString" executed="True" result="Failure" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[An unexpected exception type was thrown
+Expected: System.ArgumentNullException
+ but was: System.BadImageFormatException : Невозможно загрузить файл или сборку "IsPolendrome, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" или один из зависимых от них компонентов. Была сделана попытка загрузить программу, имеющую неверный формат.]]></message>
+                  <stack-trace><![CDATA[в TestPalindrome.PalindromeTest.CheckForNullString()
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="TestPalindrome.PalindromeTest.CheckForPalindromeWithDifferentRegisters" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.BadImageFormatException : Невозможно загрузить файл или сборку "IsPolendrome, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" или один из зависимых от них компонентов. Была сделана попытка загрузить программу, имеющую неверный формат.]]></message>
+                  <stack-trace><![CDATA[в TestPalindrome.PalindromeTest.CheckForPalindromeWithDifferentRegisters()
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="TestPalindrome.PalindromeTest.CheckForStringOfGaps" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.BadImageFormatException : Невозможно загрузить файл или сборку "IsPolendrome, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" или один из зависимых от них компонентов. Была сделана попытка загрузить программу, имеющую неверный формат.]]></message>
+                  <stack-trace><![CDATA[в TestPalindrome.PalindromeTest.CheckForStringOfGaps()
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="TestPalindrome.PalindromeTest.CheckForStringWithOneCorrectSymbol" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                <failure>
+                  <message><![CDATA[System.BadImageFormatException : Невозможно загрузить файл или сборку "IsPolendrome, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" или один из зависимых от них компонентов. Была сделана попытка загрузить программу, имеющую неверный формат.]]></message>
+                  <stack-trace><![CDATA[в TestPalindrome.PalindromeTest.CheckForStringWithOneCorrectSymbol()
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
